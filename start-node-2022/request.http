@@ -1,0 +1,27 @@
+POST http://localhost:3000/products
+content-type: application/json
+
+{
+  "name": "Logitech G205",
+  "price": "150"
+}
+
+###
+GET http://localhost:3000/products
+
+
+### 
+GET http://localhost:3000/products/2165e44c-45a5-4a44-8062-14721b1f866a
+
+
+###
+PUT http://localhost:3000/products/82ba3e80-9982-428e-a3b8-369fe9e5d3cf
+content-type: application/json
+
+{
+  "name": "Logitech G305",
+  "price": "280"
+}
+
+###
+DELETE http://localhost:3000/products/cb2ecaa4-3a43-4415-a2a2-d151ec1650d0
